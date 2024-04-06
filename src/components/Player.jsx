@@ -12,7 +12,7 @@ export default function Player() {
 
   return (
     <section id="player">
-      <h2>Welcome, {enteredName ?? "unknown entity"}.</h2>
+      <h2>Welcome, {enteredName ?? "unknown entity"}</h2>
       <p>
         <input
          ref={playerName} 
